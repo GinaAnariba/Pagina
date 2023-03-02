@@ -1,0 +1,8 @@
+al=int(input("Ingrese la altura:"))
+if al<=150:
+    print("Persona de estatura baja")
+if al>=151 and al<=170:
+    print("Persona de estatura media")
+else:
+    if al>170:
+        print("Persona de estatura alta")
