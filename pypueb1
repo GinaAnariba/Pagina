@@ -1,0 +1,5 @@
+cade=str(input("ingrese su nombre: ")).lower()
+cade2=""
+for x in range(len(cade)-1,-1,-1):
+    cade2+=cade[x]
+print(cade2)
